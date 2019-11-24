@@ -58,6 +58,7 @@ public class Personaje implements IPersonaje, IPrototype<Personaje>{
         this.nombre = nom;
         this.image = img;
     }
+    public Personaje(){}
     
     public Double getX(){    
         return x;
